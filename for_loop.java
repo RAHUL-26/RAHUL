@@ -1,6 +1,9 @@
 public class for_loop {
     public static void main(String args[]) {
-        for(int i=0;i<10;i++)
+        int i;
+        for( i=0;i<10;i++)
         System.out.println("LOOP");
+    System.out.println("For loop ends with i's value = "+i);
     }
+    
 }
